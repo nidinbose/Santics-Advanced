@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    background-color: rgb(0, 0, 0);
+}
+
+
+@font-face {
+    font-family: 'GameOfSquids';
+    src: url('/Fonts/GameOfSquids-1GMVL.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Takota';
+    src: url('/Fonts/Takota.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Night';
+    src: url('/Fonts/Night Machine.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Road';
+    src: url('/Fonts/Road_Rage.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .game {
+    font-family: 'GameOfSquids', sans-serif;
+  }
+  
+  .night {
+    font-family: 'Night', sans-serif;
+  }
+  
+  .road {
+    font-family: 'Road', sans-serif;
+  }
+  
+  .takota {
+    font-family: 'Takota', sans-serif;
+  }
+  .space {
+    font-family: "Space Grotesk", sans-serif;
+  }
